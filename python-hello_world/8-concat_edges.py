@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 word = "Holberton"
-print(word[3:] + "-oriented programming with " + word[:6])
+word_first_3 = word[:3]
+word_last_2 = word[-2:]
+print("object-oriented programming with Python")
